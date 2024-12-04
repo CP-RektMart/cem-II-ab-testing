@@ -46,35 +46,44 @@ const Banner = () => {
               }}
             />
           </div>
-          <button
-            style={{
-              backgroundColor: "#048bd9",
-              border: "none",
-              color: "white",
-              borderRadius: 8,
-              padding: "6px 24px",
-            }}
-          >
-            Alpha MyCourseVille
-          </button>
+          <a href="https://alpha.mycourseville.com/">
+            <button
+              style={{
+                backgroundColor: "#048bd9",
+                border: "none",
+                color: "white",
+                borderRadius: 8,
+                padding: "6px 24px",
+              }}
+            >
+              Alpha MyCourseVille
+            </button>
+          </a>
         </div>
-        <div
+        <a
+          href="https://www.mycourseville.com/"
           style={{
-            position: "absolute",
-            top: -12,
-            right: -12,
-            width: "30px",
-            height: "30px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            borderRadius: "10000px",
-            backgroundColor: "#dedede",
-            boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+            color: "inherit",
           }}
         >
-          <i className="fa-solid fa-x"></i>
-        </div>
+          <div
+            style={{
+              position: "absolute",
+              top: -12,
+              right: -12,
+              width: "30px",
+              height: "30px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              borderRadius: "10000px",
+              backgroundColor: "#dedede",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+            }}
+          >
+            <i className="fa-solid fa-x"></i>
+          </div>
+        </a>
       </div>
     </div>
   );
