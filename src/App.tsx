@@ -21,15 +21,37 @@ function App() {
               {" "}
               <img
                 alt="User's Portrait"
-                src="/profilepict-82631570-1705289429.jpeg"
+                src="https://placehold.co/400?text=\n"
               />
             </div>{" "}
             <div className="courseville-fbpict-sider">
-              6532038921 <br className="visible-xs-block" />
-              ชโณทัย กระแจ่ม
-              <br />
-              Chanotai Krajeam
-              <br />
+              <div
+                style={{
+                  backgroundColor: "#dedede",
+                  height: 10,
+                  margin: "2px 0",
+                  width: "80px",
+                  borderRadius: 16,
+                }}
+              ></div>
+              <div
+                style={{
+                  backgroundColor: "#dedede",
+                  height: 10,
+                  margin: "2px 0",
+                  width: "80px",
+                  borderRadius: 16,
+                }}
+              ></div>
+              <div
+                style={{
+                  backgroundColor: "#dedede",
+                  height: 10,
+                  margin: "2px 0",
+                  width: "80px",
+                  borderRadius: 16,
+                }}
+              ></div>
             </div>{" "}
             <div id="courseville-logo-sider-edit-button-wrapper">
               {" "}
