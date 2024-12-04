@@ -1,0 +1,31 @@
+span.cvcas-button{
+	display:inline-block;
+	background:#018ADA;
+	color:white;
+	padding:5px 10px 5px 10px;
+	cursor:pointer;
+	border-radius: 8px;
+}
+span.cvcas-button:hover{
+	color:black;
+	background:#fee9c8;
+}
+.cvcas-cascourse-form-logo{
+	float:left;
+	width:80px;
+	text-align: center;
+	margin-top:10px;
+}
+.cvcas-cascourse-form-logo img{
+	width:36px;
+	height:55px;
+}
+.cvcas-cascourse-form-logo + div{
+	margin-left:90px;
+}
+#cvcas-search-cucas-button{
+	margin-left:20px;
+}
+#cvcas-search-cucas-status{
+	margin-left:10px;
+}

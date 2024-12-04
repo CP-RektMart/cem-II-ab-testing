@@ -1,0 +1,155 @@
+/*----- CV Home Course List -----*/
+#courseville-courselist-home-viewtoggle-panel{
+    text-align: center;
+}
+#courseville-courselist-home-viewtoggle-panel .courseville-viewtoggle{
+    vertical-align: middle;
+    margin:0 10px;
+    font-size: 1.2em;
+}
+.courseville-courselist-group .cvui-subsection-title > h1{
+    margin:0;
+    font-size:1em;
+    display: inline-block;
+}
+.courseville-courseicongroup {
+    margin-top: 5px;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 1px #CCCCCC;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align:top;
+    padding:5px;
+}
+.courseville-courseicongroup .courseville-header{
+    font-size:10px;
+    color:black;
+}
+.courseville-courseicongroup .courseville-header > h2{
+    font-size: 1em;
+    display: inline-block;
+    margin: 0;
+}    
+.courseville-courselist-group-header{
+    /* Will be retired*/
+    font-size:12px;
+    color:#888888;
+    border-bottom:1px dotted #AAAAAA;
+    text-align: left;
+}
+.courseville-courseicongroup .courseville-collapse-control{
+
+}
+.courseville-courseicongroup[data-view="grid"]{
+    margin-right:2px;
+}
+.courseville-courseicongroup[data-view="list"]{
+    display:block;
+    text-align:left;
+}
+.courseville-courseicongroup[data-state="collapsed"] .courseville-courseicongroup-icon-lineup{
+    display: none;
+}
+.courseville-courseicongroup[data-state="expanded"] .courseville-courseicongroup-icon-lineup{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}   
+#courseville-courselist-home .courseville-courseicongroup[data-view="grid"] .courseville-courseicon{
+    width: 120px;
+    padding:6px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 4px;
+}
+/*
+@media (max-width:750px){
+    #courseville-courselist-home .courseville-courseicongroup[data-view="grid"] .courseville-courseicon{
+        width: 60px;
+    }
+}
+*/
+#courseville-courselist-home .courseville-courseicongroup[data-view="grid"] .courseville-courseicon:hover{
+    text-decoration: none;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="grid"] .courseville-courseicon:hover .courseville-courseicon-text{
+    text-decoration: none;
+    color:var(--maintheme-color);
+}
+.courseville-courseicon-icon{
+    max-width:80px;
+    margin:auto;
+}
+.courseville-courseicon-icon > img{
+    width:100%;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="grid"] .courseville-courseicon-icon{
+    max-width: 60px;
+    margin-bottom:5px;
+}
+.courseville-courseicongroup[data-view="list"][data-state="expanded"] .courseville-courseicongroup-icon-lineup{
+    display: block;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon{
+    width:auto;
+    height:auto;
+    display:flex;
+    align-items: flex-start;
+    text-align: left;
+    cursor:pointer;
+    margin:0;
+    padding:5px 0;
+    border-top:1px solid white;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon:first-child{
+    border-top-color: transparent;
+    border-radius: 4px 4px 0 0;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon:last-child{
+    border-bottom-color: transparent;
+    border-radius: 0 0 4px 4px;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon:hover{
+    background: var(--palesky-color);
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon [data-part="bg-effect-mask"]{
+    display: none;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-icon{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-icon > img{
+    width:100%;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-text{
+    flex-grow: 1;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-text [data-info]{
+    display:none;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="grid"] .courseville-courseicon-text [data-info='courseno-title'] [data-part="title"]{
+    font-weight:bold;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-text [data-info='courseno-title']{
+    display:block;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-text [data-part='courseno']{
+    font-family: monospace;
+}
+#courseville-courselist-home .courseville-courseicongroup[data-view="list"] .courseville-courseicon-text [data-part='title']{
+    font-size:1.5em;
+    line-height: 80%;
+}
+/*END: ----- CV Home Course List -----*/
+
+/* (From layout small) */
+@media (max-width:750px){
+    .courseville-courselist-group-header{
+        padding:10px;
+    }
+}

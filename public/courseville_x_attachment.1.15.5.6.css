@@ -1,0 +1,31 @@
+#attachmentwindow-auxpane-toppanel{
+	margin:10px 0;
+}
+.cvxattach-auxpane-header{
+    border-bottom: 2px solid var(--maintheme-color);
+    font-weight: bold;
+}
+.image-upload-item {
+	float: left;
+	border-radius: 4px;
+    border: 1px dashed #555;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+.removeImageButton {
+    float: right;
+    padding: 0px 5px;
+    font-size: 12px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: -10px;
+    margin-top: -8px;
+}
+.previewImage{
+    width: 100%;
+}

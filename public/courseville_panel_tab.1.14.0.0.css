@@ -1,0 +1,119 @@
+/* styling */
+.courseville-tab-button{
+    cursor: pointer;
+    display:inline-block;
+    margin-right:5px;
+    color:#FFFFFF;
+    padding:0 10px;
+    border-radius: 4px;
+    background:transparent;
+    transition: background 0.4s, color 0.4s;
+}
+.courseville-tab-button:hover, .courseville-tab-button[data-current="1"]:hover{
+    background: white;
+    color:var(--maintheme-color);
+}
+.courseville-tab-button[data-current="1"]{
+    background: rgba(255,255,255,0.2);
+}
+a.courseville-tab-button:hover{
+    text-decoration: none;
+}
+a.courseville-tab-button:focus{
+    color:white;
+}
+/* (From layout small) */
+@media (max-width:750px){
+    #courseville-panel-tab-top{
+        display:none;
+    }
+    #courseville-panel-tab-mid{
+        width:100%;
+        min-height:25px;
+        text-align: left;
+    }
+    #courseville-panel-tab-mid-inner{
+        position: relative;
+        margin-left:20px;
+        margin-right:20px;
+        padding:10px 0;
+        text-align:left;
+    }
+    #courseville-mainmenu-button{
+        height:24px;
+        width:24px;
+        cursor: pointer;
+        padding: 0;
+        background: transparent;
+        border: none;
+    }
+    #courseville-mainmenu-button > .fa{
+        color:white;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    #courseville-mainmenu-wrapper{
+        display: none;
+        position: relative;
+        margin-top:20px;
+        padding:0;
+    }
+    #courseville-mainmenu-wrapper > li{
+        display:block;
+    }
+    #courseville-mainmenu-wrapper .courseville-tab-button{
+        display:block;
+        background:var(--maintheme-color);
+        padding:10px 0;
+        font-size: 1.2em;
+    }
+    #courseville-main-spinner{
+        position:absolute;
+        top: 10px;
+        right: 0;
+        line-height: 20px;
+        font-size: 20px;
+    }
+    #courseville-panel-tab-bottom{
+    display: none;
+    }
+}
+/* (From layout full) */
+@media (min-width:751px){
+    #courseville-panel-tab-top{
+        height:11px;
+        margin:0 5px;
+        border-radius: 5px 5px 0 0;
+    }
+    #courseville-panel-tab-mid{
+        height:25px;
+        margin:0 5px;
+    }
+    #courseville-panel-tab-mid-inner{
+        position: relative;
+        margin-left:20px;
+        margin-right:20px;
+    }
+    #courseville-mainmenu-button{
+        display: none;
+    }
+    #courseville-mainmenu-wrapper{
+        display: inline-block;
+        height:16px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #courseville-mainmenu-wrapper > li{
+        display:inline-block;
+    }
+    #courseville-main-spinner{
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    #courseville-panel-tab-bottom{
+        height:10px;
+        margin:0 5px;
+    }
+}
+   

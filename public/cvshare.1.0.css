@@ -1,0 +1,23 @@
+#cvshare-cv-modal .modal-body{
+	position: relative;
+	min-height: 200px;
+}
+#cvshare-cv-modal-spinner{
+	position: absolute;
+	top:50%;
+	left:0;
+	right:0;
+	transform: translateY(-50%);
+	text-align: center;
+}
+#cvshare-cv-modal-spinner .courseville-css-spinner{
+	border-width: 1em;
+    width: 8em;
+    height: 8em;
+}
+#cvshare-cv-modal .modal-header > .cv-fa-button{
+	float:right;
+}
+#cvshare-cv-modal .courseville-post-to-fb-options{
+    max-width: none;
+}
