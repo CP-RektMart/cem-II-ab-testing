@@ -56,7 +56,7 @@ const Banner = () => {
                 padding: "6px 24px",
               }}
             >
-              Alpha MyCourseVille
+              เข้าสู่เว็บไซต์
             </button>
           </a>
         </div>
