@@ -56,7 +56,7 @@ const Banner = () => {
                 padding: "6px 24px",
               }}
             >
-              เข้าสู่เว็บไซต์
+              Enter to Website
             </button>
           </a>
         </div>
